@@ -8,7 +8,7 @@ st.set_page_config(page_title="Bangalore Bikes Dashboard", page_icon="🏍️", 
 col1, col2 = st.columns([1, 3])  # Adjust the ratio as needed
 
 # Display a smaller image in the first column
-image_path = 'https://github.com/whosurajnegi/Bangalore-Bike-Dashboard/blob/main/bike.JPG'  # Replace with the path to your image
+image_path = 'logo.png'  # Replace with the path to your image
 col1.image(image_path, width=100)  # Set a specific width for the image
 
 # Display the title in the second column

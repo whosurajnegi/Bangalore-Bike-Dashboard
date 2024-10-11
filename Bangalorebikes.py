@@ -15,7 +15,7 @@ col1.image(image_path, width=100)  # Set a specific width for the image
 col2.title("Bangalore Bikes Dashboard")  # Title of the app
 
 # Load the bike data from the specified path
-file_path = 'Bengaluru Bikes.xlsx'
+file_path = 'Bangalore_Bike_Data.xlsx'
 bike_data = pd.read_excel(file_path, header=None)
 
 # Set the first row as the header (bike models)

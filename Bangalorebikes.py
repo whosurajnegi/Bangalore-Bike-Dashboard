@@ -5,14 +5,14 @@ import pandas as pd
 st.set_page_config(page_title="Bangalore Bikes Dashboard", page_icon="🏍️", layout="wide")
 
 # Create two columns for the image and title
-#col1, col2 = st.columns([1, 3])  # Adjust the ratio as needed
+col1, col2 = st.columns([1, 3])  # Adjust the ratio as needed
 
 # Display a smaller image in the first column
-#image_path = 'bike.jpg'  # Replace with the path to your image
-#col1.image(image_path, width=100)  # Set a specific width for the image
+image_path = 'bike.jpg'  # Replace with the path to your image
+col1.image(image_path, width=100)  # Set a specific width for the image
 
 # Display the title in the second column
-col1.title("Bangalore Bikes Dashboard")  # Title of the app
+col2.title("Bangalore Bikes Dashboard")  # Title of the app
 
 # Load the bike data from the specified path
 file_path = 'Bangalore_Bike_Data.xlsx'
